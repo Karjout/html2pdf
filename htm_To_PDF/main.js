@@ -1,4 +1,4 @@
-//include this in your Project
+//import this in your Project
 const addScript =(url)=>{
     let script =document.createElement('script');
     script.type='application/javascript';
