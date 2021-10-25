@@ -9,5 +9,7 @@ const addScript =(url)=>{
 addScript('https://raw.githack.com/eKoopmans/html2pdf/master/dist/html2pdf.bundle.js');
 //for executing the function
 const Convert_to_Html=()=>{
+    let btn = document.getElementById("btnn");
+    btn.remove();
     html2pdf(document.body);  
 };
