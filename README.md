@@ -1,2 +1,2 @@
 # html2pdf
-convert html to pdf
+Convert html page to pdf file 
